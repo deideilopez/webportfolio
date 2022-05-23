@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+
+* {
+	font-family: 'Poppins', sans-serif;
+}
+
+h3, h2, h4, h1{
+	font-weight: 800;
+	color: #680226;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.bg-pink {
+	background-color: #fb699c;
+}
+
+.bg-light-pink {
+	background-color: #feb4c9;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 100%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+  }
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+ .gborder {
+ 	border: 0;
+ }
+
+ .bg-card {
+ 	background-color: #fdd5e1;
+ }
